@@ -1,0 +1,59 @@
+body{
+    padding: 20px;
+    margin:0;
+}
+
+div{
+    border: 1px solid #999;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.container,.menber1,.mener2,.menber3,.menber4,.logo{
+    background-color: #eee;
+}
+.container{
+    height: auto;
+    display: flex;
+    overflow: auto;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+}
+
+.menber{
+    height: 420px;
+    width: 80px;
+    margin: 20px;
+    margin-left: 0;
+    box-sizing: content-box;
+    flex-shrink:0;
+    margin-bottom: 0;
+}
+.menber1,.mener2,.menber3,.menber4,.logo{
+    width: 80px;
+    height: 80px;
+    padding: 0;
+}
+.menber1,.mener2,.menber3,.menber4{
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+.team{
+    width: 200px;
+    height: auto;
+    margin: 20px 20px 0 0;
+    flex-shrink:0;
+}
+.introduction{
+    width: auto;
+    height: auto;
+    flex-grow: 1;
+    margin: 20px 20px 0 0;
+    flex-shrink:1;
+}
+span{
+    word-break:break-all;
+}
